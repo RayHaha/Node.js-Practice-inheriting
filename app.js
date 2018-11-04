@@ -1,6 +1,10 @@
-var EventEmitter = require('events');
+// use class in module
+var Greetr = require('./greetr');
 
+
+/*
 // use class to build new object
+var EventEmitter = require('events');
 // extends means that Greetr inherits from EventEmitter
 class Greetr extends EventEmitter{
 	constructor(){
@@ -13,6 +17,7 @@ class Greetr extends EventEmitter{
 		this.emit('greet', data);
 	}
 }
+*/
 
 /*
 function Greetr(){
